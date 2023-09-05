@@ -1,0 +1,39 @@
+.top_bar {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+}
+.nav_logo {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.nav_container {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+.display_navigator {
+  display: flex;
+  gap: 50px;
+  padding: 1rem;
+}
+.display_navigator a{
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: currentColor;
+}
+.display_navigator a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  transition: .2s;
+}
+.display_navigator a:hover::after {
+  width: 100%;
+}
