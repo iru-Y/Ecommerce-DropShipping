@@ -9,12 +9,14 @@ import {MatIconModule} from '@angular/material/icon';
 import { HttpClientModule, HttpHeaders } from '@angular/common/http';
 import { HomeComponent } from './views/home/home.component';
 import { TopbarComponent } from './views/shared/topbar/topbar.component';
+import { AdmComponent } from './views/adm/adm.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    TopbarComponent
+    TopbarComponent,
+    AdmComponent
   ],
   imports: [
     BrowserModule,

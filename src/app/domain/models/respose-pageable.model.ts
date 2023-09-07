@@ -9,6 +9,5 @@ export class ResponsePageable {
    sort?: boolean[];
    totalElements?: number;
    totalPages?: number;
-
 }
 

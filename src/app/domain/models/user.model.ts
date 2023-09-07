@@ -3,4 +3,5 @@ export class User {
   password?: string;
   mail?: string;
   role?: string;
+  profileImage?: string;
 }
